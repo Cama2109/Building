@@ -1,0 +1,25 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "liveServer.settings.port": 5501,
+    "cSpell.words": [
+        "adipiscing",
+        "amet",
+        "arcu",
+        "consectetur",
+        "Delux",
+        "eleifend",
+        "elit",
+        "enim",
+        "humburger",
+        "posuere",
+        "rasm",
+        "viverra",
+        "yerda"
+    ]
+}

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+   max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .navbar-logo {
+    display: flex;
+    width: 120px;
+    height: 40px;
+  }
+  .navbar-logo-name {
+    font-family: $font-primary;
+    color: #06052b;
+    font-style: regular;
+    font-size: 17px;
+    margin-left: 5px;
+  }
+  .navbar-ul{
+      display: flex;
+      list-style-type: none;
+  }
+  .navbar-ul >  li {
+      margin-left:30px;
+  }
+  .navbar-list{
+      transition: ease 1s;
+  }
+  .navbar-links{
+      text-decoration: none;
+      font-family: $font-primary;
+      color: #060629;
+      font-style: regular;
+      font-size: 18px;
+     
+  }
+  .navbar-list:hover{
+      transform: translateY(-10px);
+      color:#101055;
+  }
+  .navbar-button{
+      width: 96;
+      height:40px;
+      padding: 10px 26px 10px 25px;
+      background-color: #19BCE4;
+      border: none;
+      border-radius:6px;
+      color: #fff;
+      transition: ease 1s;
+      margin-top: 5px;
+  }
+  .navbar-button:hover{
+      background-color: #39cef3;
+      color: #06052b;
+  }
+  .navbar-humburger{
+     border: none;
+     background-color: none;
+  display: none;
+  }
+  .navbar-humburger:hover{
+      border: 4px ;
+      border-style:solid;
+       
+       border-color:  #060629;
+       padding: 2px 3px 0px;
+  
+  }
+  
+  @include breakpoint-down(699px){
+      .navbar-ul{
+          display: none;
+          list-style-type: none;
+      }
+      .navbar-humburger{
+         
+          border: none;
+          background-color: none;
+       display: block;
+       }
+       .navbar-button{
+          width: 96;
+          height:40px;
+          padding: 10px 26px 10px 25px;
+          background-color: #19BCE4;
+          border: none;
+          border-radius:6px;
+          color: #fff;
+          transition: ease 1s;
+          margin-top: 5px;
+          display: none;
+      }
+  }
+  @include breakpoint-down(480px){
+      .navbar-ul{
+          display: none;
+          list-style-type: none;
+      }
+      .navbar-humburger{
+         
+          border: none;
+          background-color: none;
+       display: block;
+       }
+       .navbar-button{
+          width: 96;
+          height:40px;
+          padding: 10px 26px 10px 25px;
+          background-color: #19BCE4;
+          border: none;
+          border-radius:6px;
+          color: #fff;
+          transition: ease 1s;
+          margin-top: 5px;
+          display: none;
+      }
+      .navbar {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 40px;
+        }
+  }
